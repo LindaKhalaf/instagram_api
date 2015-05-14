@@ -1,0 +1,56 @@
+/*for login button and all other link because why not*/
+.login-button:link {color: white;}      /* unvisited login button */
+
+.login-button:visited {color:red;}  /* visited login button */
+
+.login-button:hover {color:green;}  /* mouse over login button */
+
+.login-button:active {color:purple}  /* selected login button */
+
+.login-button-other-div{
+	margin-top: 25px;
+}
+
+.login-button-div{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 250px;	
+	width: 100px;
+	height: 70px;
+	background-color: orange;
+/*	border: 0px solid gray;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;*/
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.login-button-div:hover{
+	background-color: red;
+}
+
+.body-class{
+	background-color: black;
+}
+
+.body-class:hover{
+	background-color: maroon;
+}
+
+.file-name-div{
+	text-align: center;
+	color: orange;
+}
+
+.image-div{
+	vertical-align: center;
+	text-align: center;
+	padding-right: 1000px;
+	background-color: black;
+}
+
+.image-div:hover{
+	background-color: maroon;
+}
