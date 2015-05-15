@@ -1,0 +1,95 @@
+/*for login button and all other link because why not*/
+.login-button:link {color: white;}      /* unvisited login button */
+
+.login-button:visited {color:white;}  /* visited login button */
+
+.login-button:hover {color:green;}  /* mouse over login button */
+
+.login-button:active {color:purple}  /* selected login button */
+
+.login-button-other-div{
+	margin-top: 25px;
+}
+
+.login-button-div{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 250px;	
+	width: 100px;
+	height: 70px;
+	opacity: 1.0;
+/*	border: 0px solid gray;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-khtml-border-radius: 100px;*/
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.login-button-div:hover{
+	background-color: white;
+}
+
+.body-class{
+	background-image:url('http://wallpoper.com/images/00/40/40/22/supernatural_00404022.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-class:hover{
+		background-image:url('http://www.desktopaper.com/wp-content/uploads/new-sherlocked-by-stormwolfroranicus-dnboju.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-class-for-other-page{
+	background-image:url('http://www.designbolts.com/wp-content/uploads/2014/05/How-to-Train-Your-Dragon-2-toothless-wallpaper-hd1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.body-class-for-other-page:hover{
+	background-image:url('http://bigbackground.com/wp-content/uploads/2013/07/doctor-who-wallpaper-angels.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.file-name-div{
+	text-align: center;
+	color: orange;
+}
+
+.image-div{
+	vertical-align: center;
+	text-align: center;
+	margin-left: 500px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	background-color: black;
+}
+
+.image-div:hover{
+	background-color: violet;
+}
+
+.nav-class{
+	margin-top: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	vertical-align: center;
+	text-decoration: none;
+}
+
+@media(max-width: 600px) {
+ .body-class-for-other-page{
+  background-size: cover;
+ }
+
+ @media(max-height: 375px){
+  .body-class-for-other-page{
+    background-size: cover;
+  }
+ }
